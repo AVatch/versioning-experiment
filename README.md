@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup and run with the following:
 
-Things you may want to cover:
+1. `bundle install`
+2. `bundle exec rails generate paper_trail:install`
+3. `bundle exec rake db:migrate`
+4. `rake db:test:prepare`
+5. `rake test:populate_db`
+6. `rake test:update_posts`
+7. `rake test:log_versions`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Look at the console for output
